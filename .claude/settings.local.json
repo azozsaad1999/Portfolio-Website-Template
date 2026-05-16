@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -File)",
+      "Bash(Select-Object Name)",
+      "PowerShell(cd \"c:\\\\Users\\\\almar\\\\Desktop\\\\project test\\\\test project from hup\\\\Portfolio-Website-Template\"; Get-ChildItem | ForEach-Object { $_.Name })",
+      "PowerShell(cd \"c:\\\\Users\\\\almar\\\\Desktop\\\\project test\\\\test project from hup\\\\Portfolio-Website-Template\"; Get-ChildItem -Force | ForEach-Object { \"$\\($_.FullName\\)\" })"
+    ]
+  }
+}
